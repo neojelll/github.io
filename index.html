@@ -3,97 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Моя Красивую Домашнюю Страницу</title>
+    <title>Моя домашняя страничка</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-
-        header {
-            background: #007BFF;
-            color: #ffffff;
-            padding: 20px 0;
-            text-align: center;
-        }
-
-        header h1 {
-            margin: 0;
-        }
-
-        nav {
-            margin: 20px 0;
-        }
-
-        nav a {
-            margin: 0 15px;
-            color: #ffffff;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        nav a:hover {
-            text-decoration: underline;
-        }
-
-        .container {
-            width: 80%;
-            margin: 0 auto;
-            padding: 20px;
-            background: #ffffff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        footer {
-            text-align: center;
-            padding: 15px 0;
-            background: #007BFF;
-            color: #ffffff;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-
-        .content {
-            margin-top: 20px;
-        }
-
-        .content h2 {
-            color: #333;
-        }
-
-        .content p {
-            line-height: 1.6;
-            color: #555;
-        }
-    </style>
 </head>
 <body>
-
-<header>
-    <h1>Добро пожаловать на мою страницу!</h1>
-    <nav>
-        <a href="#home">Главная</a>
-        <a href="#about">О нас</a>
-        <a href="#services">Услуги</a>
-        <a href="#contact">Контакты</a>
-    </nav>
-</header>
-
-<div class="container">
-    <div class="content">
-        <h2>Главные Новости</h2>
-        <p>Это пример домашней страницы с использованием HTML и CSS. Вы можете изменить контент и стили на ваше усмотрение.</p>
-        <p>Здесь вы можете разместить любую информацию, которая вам нужна, включая новости, обновления и т.д.</p>
-    </div>
-</div>
-
-<footer>
-    <p>&copy; 2023 Моя Страница. Все права защищены.</p>
-</footer>
-
+    <header>
+        <h1>Добро пожаловать на мой сайт!</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Обо мне</a></li>
+                <li><a href="#portfolio">Портфолио</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>Обо мне</h2>
+            <p>Я веб-разработчик, который любит создавать красивые и современные сайты.</p>
+        </section>
+        <section id="portfolio">
+            <h2>Портфолио</h2>
+            <div class="portfolio-item">Проект 1</div>
+            <div class="portfolio-item">Проект 2</div>
+            <div class="portfolio-item">Проект 3</div>
+        </section>
+        <section id="contact">
+            <h2>Контакты</h2>
+            <p>Email: example@mail.com</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Мое имя. Все права защищены.</p>
+    </footer>
 </body>
 </html>
